@@ -1,0 +1,14 @@
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
+alias ls="exa"
+alias l="exa -FGax --icons --group-directories-first"
+alias ll="exa -Fabhl --icons --color-scale --icons --git --group-directories-first --time-style=iso"
+alias ll="exa -Fabhl --icons --color-scale --icons --git --group-directories-first --time-style=iso --sort=modified"
+
+alias zshrc="nvim ~/.zshrc"
+alias aliasrc="nvim ~/.config/zsh/.aliasrc"
+
+alias n="nvim"

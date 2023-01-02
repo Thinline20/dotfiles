@@ -1,0 +1,6 @@
+stow
+zsh
+zoxide
+starship
+neovim
+
