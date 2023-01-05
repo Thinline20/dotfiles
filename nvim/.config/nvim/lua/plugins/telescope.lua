@@ -23,7 +23,7 @@ function M.config()
 	telescope.extensions = {
 		undo = {
 
-		}
+		},
 	}
 
 	telescope.load_extension("undo")

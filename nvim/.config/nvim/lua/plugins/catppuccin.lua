@@ -10,7 +10,14 @@ function M.config()
 		flavour = "frappe",
 		transparent_background = true,
 		integrations = {
+            harpoon = true,
+            mason = true,
+            neotree = true,
+            cmp = true,
+            treesitter_context = true,
+            treesitter = true,
 			telescope = true,
+            which_key = true
 		}
 	})
 
