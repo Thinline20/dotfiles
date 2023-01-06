@@ -3,6 +3,8 @@ vim.g.mapleader = " "
 -- Open netrw
 --vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
+vim.keymap.set("n", "gv", "<C-v>")
+
 -- Move highlighted lines up and down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")

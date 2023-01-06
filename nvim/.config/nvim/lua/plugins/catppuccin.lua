@@ -17,7 +17,8 @@ function M.config()
             treesitter_context = true,
             treesitter = true,
 			telescope = true,
-            which_key = true
+            which_key = true,
+
 		}
 	})
 

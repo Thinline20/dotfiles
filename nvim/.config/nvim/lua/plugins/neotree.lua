@@ -21,9 +21,9 @@ function M.config()
 
     })
 
-    vim.keymap.set("n", "<leader>e", function() vim.api.nvim_exec("Neotree focus filesystem left", true) end)
-    vim.keymap.set("n", "<leader>b", function() vim.api.nvim_exec("Neotree focus buffers left", true) end)
-    vim.keymap.set("n", "<leader>g", function() vim.api.nvim_exec("Neotree focus git_status left", true) end)
+    vim.keymap.set("n", "<leader>e", function() vim.api.nvim_exec("Neotree focus reveal filesystem left", true) end)
+    vim.keymap.set("n", "<leader>b", function() vim.api.nvim_exec("Neotree focus reveal buffers left", true) end)
+    --vim.keymap.set("n", "<leader>g", function() vim.api.nvim_exec("Neotree focus reveal git_status left", true) end)
 end
 
 return M

@@ -57,6 +57,8 @@ function M.config()
 		--vim.keymap.set("n", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 	end)
 
+    vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.format()]])
+
 	lsp.setup()
 end
 
