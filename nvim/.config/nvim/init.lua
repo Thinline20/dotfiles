@@ -12,7 +12,7 @@
 
 ----------------------------------------------[[ Bootstrap Lazy ]]
 
-require("thinline20/lazy_bootstrap")   -- bootstraps folke/lazy
+require("lazy_bootstrap")   -- bootstraps folke/lazy
 
 ----------------------------------------------[[  User Settings ]]
 
