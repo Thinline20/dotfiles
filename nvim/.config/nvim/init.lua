@@ -1,23 +1,27 @@
--- .
--- ├── init.lua
--- ├── ...
--- └── lua
---     ├── plugins
---     │   ├── init.lua
---     │   └── telescope.lua
---     └── thinline20
---         ├── init.lua
---         ├── lazy_bootstrap.lua
---         ├── ...
+if vim.g.vscode then
+    require("thinline20")
+else
+    -- nvim config
+    -- ├── init.lua
+    -- ├── ...
+    -- └── lua
+    --     ├── plugins
+    --     │   ├── init.lua
+    --     │   └── telescope.lua
+    --     └── thinline20
+    --         ├── init.lua
+    --         ├── lazy_bootstrap.lua
+    --         ├── ...
 
-----------------------------------------------[[ Bootstrap Lazy ]]
+    ----------------------------------------------[[ Bootstrap Lazy ]]
 
-require("lazy_bootstrap")   -- bootstraps folke/lazy
+    require("lazy_bootstrap") -- bootstraps folke/lazy
 
-----------------------------------------------[[  User Settings ]]
+    ----------------------------------------------[[  User Settings ]]
 
-require("thinline20")                  -- loads lua/thinline20/init.lua
+    require("thinline20") -- loads lua/thinline20/init.lua
 
-----------------------------------------------[[  Load Plugins  ]]
+    ----------------------------------------------[[  Load Plugins  ]]
 
-require("lazy").setup("plugins")       -- loads each lua/plugin/*
+    require("lazy").setup("plugins") -- loads each lua/plugin/*
+end
