@@ -11,7 +11,7 @@ Other apps : check apps.txt
 ## Setup
 
 ```bash
-git clone Thinline20/dotfiles $HOME/dotfiles
+git clone https://github.com/Thinline20/dotfiles $HOME/dotfiles
 cd $HOME/dotfiles
 stow */
 ```
