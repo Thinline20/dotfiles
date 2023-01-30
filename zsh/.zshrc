@@ -18,7 +18,6 @@ eval "$(zoxide init zsh)"
 
 source "/home/thinline20/.config/zsh/.aliasrc"
 
-export PATH="$HOME/neovim/bin:$PATH"
-export PATH="$PATH:/mnt/c/Users/thinl/AppData/Local/Programs/Microsoft VS Code/bin"
+export PATH="$PATH:$HOME/neovim/bin:/mnt/c/Users/thinl/AppData/Local/Programs/Microsoft VS Code/bin:/home/thinline20/.local/bin"
 
 [ -f "/home/thinline20/.ghcup/env" ] && source "/home/thinline20/.ghcup/env" # ghcup-env
